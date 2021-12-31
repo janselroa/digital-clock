@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    color: #fff;
+    font-family: Orbitron;
+    height: 100vh;
+    background: no-repeat url("./img/snow.jpg");
+    background-size: cover;
+    transition: background 1s;
+}
+
+.clock {
+    width: 500px;
+    height: 200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 7%, 0.657);
+    padding: 10px;
+}
+
+p {
+    font-size: 60px;
+    text-shadow: 5px 5px 10px var(--text-color);
+    letter-spacing: 7px;
+}
+
+span.material-icons {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.settings-window {
+    position: absolute;
+    display: none;
+    width: 500px;
+    height: 400px;
+    background-color: #333;
+}
+
+.settings-show {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.settings-window img {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+
+.settings-window img:hover {
+    outline: 1px solid #fff;
+}
