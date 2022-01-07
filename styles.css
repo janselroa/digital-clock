@@ -6,6 +6,7 @@ body {
     background: no-repeat url("./img/snow.jpg");
     background-size: cover;
     transition: background 1s;
+    margin: 0;
 }
 
 .clock {
@@ -19,13 +20,14 @@ body {
     padding: 10px;
 }
 
-p {
+.hours {
     font-size: 60px;
     text-shadow: 5px 5px 10px var(--text-color);
     letter-spacing: 7px;
 }
 
 span.material-icons {
+    margin-top: 20px;
     color: #fff;
     font-size: 2.2rem;
 }
@@ -46,7 +48,7 @@ button {
 .settings-show {
     display: flex !important;
     flex-wrap: wrap;
-    justify-content: center;
+    box-shadow: 0 0 30px 10px rgba(34, 34, 34, 0.514);
 }
 
 .settings-window img {
@@ -58,4 +60,23 @@ button {
 
 .settings-window img:hover {
     outline: 1px solid #fff;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+span:hover {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 30px #222;
 }
