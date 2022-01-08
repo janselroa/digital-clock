@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 body {
     color: #fff;
-    font-family: Orbitron;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     background: no-repeat url("./img/snow.jpg");
     background-size: cover;
@@ -24,6 +23,7 @@ body {
     font-size: 60px;
     text-shadow: 5px 5px 10px var(--text-color);
     letter-spacing: 7px;
+    margin: 10px;
 }
 
 span.material-icons {
@@ -79,4 +79,9 @@ footer a {
 span:hover {
     transform: scale(1.1);
     text-shadow: 2px 2px 30px #222;
+}
+
+.date {
+    font-size: 1.3rem;
+    text-align: center;
 }
