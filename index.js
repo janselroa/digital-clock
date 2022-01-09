@@ -18,13 +18,14 @@ settings.addEventListener("click", (e) => {
 })
 
 const daysWeek = [
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday",
-    "Sunday"
+    "Saturday"
+
 ]
 const Months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 setInterval(() => {
